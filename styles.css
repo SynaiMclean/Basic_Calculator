@@ -1,0 +1,17 @@
+ #heading{
+    text-align: center;
+ }
+
+ .calculator-base{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: grey;
+    box-sizing: border-box;
+    height: 400px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+
+ }
