@@ -33,15 +33,58 @@
 
  .button-grid{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid black;
     border-radius: 10px;
     box-sizing: border-box;
     justify-content: center;
+    align-items: flex-start;
     margin-top: 25px;
     margin-left: 10px;
     width: 320px;
-    height: 230px;
+    height: 200px;
+    gap: 10px;
     
+ }
+ .button{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: ;
+ }
+ .number-section{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 10px;
+    
+ }
+ .operation-section{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
+
+ .button-s{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
     
  }
