@@ -7,7 +7,7 @@
     border-radius: 10px;
     background-color: grey;
     box-sizing: border-box;
-    height: 400px;
+    height: 370px;
     width: 350px;
     margin: auto;
     display: flex;
@@ -87,4 +87,10 @@
     height: 50px;
     flex-direction: column;
     
+ }
+
+ .button:hover, .button-s:hover {
+   
+   background-color: rgb(169, 170, 171);
+
  }
