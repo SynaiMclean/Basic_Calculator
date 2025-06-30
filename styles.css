@@ -12,6 +12,31 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    display: flexbox;
+   
     
 
+ }
+ .bar{
+    justify-items: center;
+    background-color: rgb(169, 170, 171);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 320px;
+    height: 75px;
+    margin-bottom: 220px;
+    padding-right: px;
+    
+ }
+
+ .button{
+   
+    border: 1px solid black;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100px;
+    
+    
+    
  }
