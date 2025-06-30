@@ -1,3 +1,3 @@
-# Rock_Paper_Scissors
+# Basic_Calculator
 
-Basic Rock, Paper and Scissors game usign HTML, CSS and JavaScript.
+Basic Calculator game usign HTML, CSS and JavaScript.
