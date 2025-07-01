@@ -7,7 +7,7 @@
     border-radius: 10px;
     background-color: grey;
     box-sizing: border-box;
-    height: 370px;
+    height: 430px;
     width: 350px;
     margin: auto;
     display: flex;
@@ -42,7 +42,7 @@
     margin-top: 25px;
     margin-left: 10px;
     width: 320px;
-    height: 200px;
+    height: 260px;
     gap: 10px;
     
  }
@@ -55,7 +55,7 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: ;
+   
  }
  .number-section{
     margin-top: 10px;
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
+    width: 180px;
     gap: 10px;
     
  }
@@ -89,8 +89,23 @@
     
  }
 
- .button:hover, .button-s:hover {
-   
+ button:hover, .button-s:hover {
+
    background-color: rgb(169, 170, 171);
 
  }
+
+ button{
+   box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    cursor: pointer;
+ }
+.button-wide, .button-wide button{
+   
+   width: 170px;
+}
+ 
