@@ -27,8 +27,30 @@ for(let i = 0; i < operationButtons.length; i ++){
             firstNumber = "";
              operation = "";
             secondNumber = "";
-            display.textContent
+            display.textContent = "0";
 
+        }
+        else if (buttonText === "="){
+            secondNumber = parseFloat(displayValue)
+
+            let result;
+            if(operation === "+"){
+                result = firstNumber + secondNumber;
+            }else if(operation === "-"){
+                result= firstNumber - secondNumber;
+            }else if(operationt === "X" ){
+                result= firstNumber * secondNumber;
+            }else if(operation === "/"){
+                result = firstNumber / secondNumber;
+         }
+         displayValue = result.toString();
+         display.textContent = displayValue;
+        }
+        else{
+            firstNumber = parseFloat(displayValue)
+            operation = buttonText;
+            displayValue: "";
+            waitingForOperand: true;
         }
     
 
@@ -38,19 +60,4 @@ for(let i = 0; i < operationButtons.length; i ++){
     
 
 
- // displayValue += buttonText;
-        // display.textContent = displayValue;
-
-        // if(buttonText === "+"){
-        //    displayValue = firstNumber + secondNumber;
-        // }else if(buttonText === "-"){
-        //     displayValue = firstNumber - secondNumber;
-        // }else if(buttonText === "X" ){
-        //     displayValue = firstNumber * secondNumber;
-        // }else if(buttonText === "/"){
-        //     displayValue = firstNumber / secondNumber;
-        // }else if( buttonText === "A/C"){
-        //     displayValue = ""
-        // }else if(buttonText === "="){
-        //     display.textContent = displayValue
-        // }
+        
